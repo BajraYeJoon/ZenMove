@@ -22,7 +22,7 @@ export default function App() {
 
       <LinearGradient
         colors={["transparent", "rgba(0,0,0,0.5)"]}
-        style={{ width: wp(100), height: hp(70) }}
+        style={{ width: wp(100), height: hp(60) }}
         start={{ x: 0.5, y: 0 }}
         end={{ x: 0.5, y: 0.7 }}
         className="flex justify-end pb-10 space-y-5"
@@ -32,14 +32,14 @@ export default function App() {
           className="flex items-center"
         >
           <Text
-            style={{ fontSize: hp(5) }}
+            style={{ fontSize: hp(3.5) }}
             className="text-white font-bold tracking-wide "
           >
             Your Peaceful Path
           </Text>
           <Text
-            style={{ fontSize: hp(10) }}
-            className="text-[#c095e4] font-bold tracking-wide "
+            style={{ fontSize: hp(9) }}
+            className="text-[#c095e4] font-bold "
           >
             ZenMove
           </Text>
