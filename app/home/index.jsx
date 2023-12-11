@@ -3,6 +3,10 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import { StatusBar } from "expo-status-bar";
 import Header from "../../components/Header/Header";
 
+import ImgCarousel from "../../components/Carousel/ImgCarousel";
+import Search from "../../components/Search/Search";
+import YogaPoses from "../../components/YogaPoses/YogaPoses";
+
 export default function Home() {
   return (
     <SafeAreaView
@@ -11,6 +15,10 @@ export default function Home() {
     >
       <StatusBar style="dark" />
       <Header />
+      <Search />
+
+      <ImgCarousel />
+      <YogaPoses />
     </SafeAreaView>
   );
 }
